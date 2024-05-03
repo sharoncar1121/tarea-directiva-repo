@@ -1,0 +1,9 @@
+<ion-label [ngStyle]="{ 'color': colorHex }">Texto de prueba con color dinámico</ion-label>
+
+<ion-item [ngSwitch]="colorButton">
+  <ion-button *ngSwitchCase = "'primary'" [color]="colorButton">Botón con color Primary</ion-button>
+  <ion-button *ngSwitchCase = "'dark'" [color]="colorButton">Botón con color Dark</ion-button>
+  <ion-button *ngSwitchCase = "'danger'" [color]="colorButton">Botón con color Danger</ion-button>
+  <ion-button *ngSwitchDefault>Botón Default</ion-button>
+</ion-item>
+

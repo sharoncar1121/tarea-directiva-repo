@@ -1,0 +1,33 @@
+#container {
+  position: absolute;
+  left: 20px; 
+  top: 20%;
+  padding-bottom: 20px; 
+}
+
+#container app-button,
+#container app-animals-list,
+#container app-phone-number,
+#container app-score,
+#container app-texto {
+  margin-bottom: 20px; 
+}
+
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
